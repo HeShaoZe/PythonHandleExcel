@@ -8,7 +8,7 @@ def fun(tag):
 	return tag.has_attr('class') and tag.has_attr('itemprop');
 
 
-inputUrl = "http://book.zongheng.com/chapter/1213638/68138500.html";
+inputUrl = "";
 reps = requests.get(inputUrl);
 # pageContent = reps.content;
 beautResult = BeautifulSoup(reps.content, 'lxml')
